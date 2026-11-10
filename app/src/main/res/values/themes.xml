@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash: the brand mark on the warm near-black background. -->
+    <style name="Theme.AdamPay.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.AdamPay</item>
+    </style>
+
+    <style name="Theme.AdamPay" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/window_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Quick log (phase 6) and other sheets drawn over another app. -->
+    <style name="Theme.AdamPay.Translucent" parent="Theme.AdamPay">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

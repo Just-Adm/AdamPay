@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App shortcut icons: dark green, like the launcher icon. -->
+    <color name="shortcut_bg">#FF0C1611</color>
+</resources>
